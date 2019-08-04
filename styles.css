@@ -26,7 +26,7 @@ h5, h6 {
   justify-content: center;
 }
 
-.image-wrapper img {
+.home-image {
   width: 15%;
 }
 
@@ -35,10 +35,9 @@ h5, h6 {
   margin-bottom: 75px;
 }
 
-.search-wrapper input {
+.search-bar {
   width: 100%;
   font-size: 19px;
-  padding: 20px;
   outline: none;
   border-radius: 5px;
   border: 1px solid #F3F3F3;
@@ -46,8 +45,12 @@ h5, h6 {
   transition: all .15s ease;
 }
 
-.search-wrapper input:focus {
+.search-bar:focus {
   box-shadow: 0px 0px 7px 4px rgb(212, 212, 212);
+}
+
+.home-search {
+  padding: 20px;
 }
 
 .search-wrapper p {
@@ -73,6 +76,49 @@ h5, h6 {
 }
 
 .recent-posts div a {
-  color: black;
+  color: #4a4a4a;
   text-decoration: none;
+}
+
+.result-search {
+  padding: 10px;
+}
+
+.results-image {
+  width: 80px;
+}
+
+.results-wrapper {
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.result {
+  margin-top: 42px;
+  margin-bottom: 42px;
+}
+
+.result a {
+  color: #0079FF;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+.result p {
+  font-size: 19px;
+  color: #4a4a4a;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.result-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.result-info div {
+  width: 250px;
+  color: #4a4a4a;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
