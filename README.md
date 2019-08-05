@@ -2,5 +2,5 @@
 
 CSS Practice app
 
-###Technologies Used
+### Technologies Used
 CSS Grid, CSS Flexbox
